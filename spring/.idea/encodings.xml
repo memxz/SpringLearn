@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/MybatisEntry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisEntry2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisEntry3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisEntry4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisEntry5" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisGenerator_java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisGenerator_maven" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SSpringmvcMybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringmvcSpringMybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/annotation_createdObject" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/annotation_injectField" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aop_1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aop_2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ioc_1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ioc_constructorArgInject" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ioc_objectInject" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ioc_pArgInject" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ioc_setInject" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ioc_staticFactory" charset="UTF-8" />
+  </component>
+</project>

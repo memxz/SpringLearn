@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SSpringmvcMybatis:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33c6754f-cf51-42c9-8c2e-a43463103576" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="generator" />
+        <option value="applicationContext" />
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="XML Properties File" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Mapper" />
+        <option value="applicationContext templete" />
+        <option value="SqlMapConfig2 templete" />
+        <option value="SqlMapConfig templete" />
+        <option value="log4j property templete" />
+        <option value="JDBC property templete" />
+        <option value="Mapper Templete" />
+        <option value="UserMapper Sample" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\Users\mengxianzhu\.sdkman\candidates\maven\current\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RXhp9taLTNmER395mfEOJkaQ2w" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MybatisGenerator_maven/src/main/resources" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.239188" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.com.hardes.resultmap" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hardes.po" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src\main\resources" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_java\src\main\resource" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\SSM_1\src\main\webapp\WEB-INF" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\SSM_1\src\main" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\SpringmvcSpringMybatis\src\main\java\com\hardes\dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hardes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_java\src\main\resource" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_java\src\main\java\config" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src\main" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src\main\resource" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.User_Test">
+    <configuration name="MybatisGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hardes.mbg.MybatisGenerator" />
+      <module name="MybatisGenerator_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hardes.mbg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopTest_1" type="JUnit" factoryName="JUnit">
+      <module name="aop_1" />
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.TestAop" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopTest_2" type="JUnit" factoryName="JUnit">
+      <module name="aop_2" />
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.TestAop_2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocTest_1" type="JUnit" factoryName="JUnit">
+      <module name="ioc_1" />
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.IocTest_1" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Person_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisGenerator_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hardes.ssm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hardes.ssm" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.ssm.Person_test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Person_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisGenerator_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hardes.ssm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hardes.ssm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.ssm.test.Person_test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Person_test.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisGenerator_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hardes.ssm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hardes.ssm.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.ssm.test.Person_test" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisEntry4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hardes.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.User_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="annotation_injectFieldtTest" type="JUnit" factoryName="JUnit">
+      <module name="annotation_injectField" />
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.UserServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ioc_constructorArgInjectTest" type="JUnit" factoryName="JUnit">
+      <module name="ioc_constructorArgInject" />
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.StudentTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ioc_objectInjectTest" type="JUnit" factoryName="JUnit">
+      <module name="ioc_objectInject" />
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.UserServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ioc_pComplexInject" type="JUnit" factoryName="JUnit">
+      <module name="ioc_pArgInject" />
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.propertyDemoTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ioc_setInjectTest" type="JUnit" factoryName="JUnit">
+      <module name="ioc_setInject" />
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.TeacherTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisGenerator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/MybatisGenerator_maven" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="SSM_test" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.96" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SSpringmvcMybatis_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SSpringmvcMybatis:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SSpringmvcMybatis_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4376" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSpringmvcMybatis:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="SSMybatisTest" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.96" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SpringmvcSpringMybatis_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SpringmvcSpringMybatis:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SpringmvcSpringMybatis_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="24854" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringmvcSpringMybatis:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MybatisGenerator" />
+      <item itemvalue="JUnit.AopTest_2" />
+      <item itemvalue="JUnit.IocTest_1" />
+      <item itemvalue="JUnit.ioc_constructorArgInjectTest" />
+      <item itemvalue="JUnit.ioc_setInjectTest" />
+      <item itemvalue="JUnit.ioc_objectInjectTest" />
+      <item itemvalue="JUnit.ioc_pComplexInject" />
+      <item itemvalue="JUnit.annotation_injectFieldtTest" />
+      <item itemvalue="JUnit.AopTest_1" />
+      <item itemvalue="JUnit.Person_test.test01" />
+      <item itemvalue="JUnit.Person_test" />
+      <item itemvalue="JUnit.Person_test (1)" />
+      <item itemvalue="JUnit.User_Test" />
+      <item itemvalue="Maven.MybatisGenerator" />
+      <item itemvalue="Tomcat Server.SSM_test" />
+      <item itemvalue="Tomcat Server.SSMybatisTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.User_Test" />
+        <item itemvalue="JUnit.Person_test (1)" />
+        <item itemvalue="JUnit.Person_test" />
+        <item itemvalue="Application.MybatisGenerator" />
+        <item itemvalue="JUnit.Person_test.test01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33c6754f-cf51-42c9-8c2e-a43463103576" name="Default Changelist" comment="" />
+      <created>1569819527359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569819527359</updated>
+      <workItem from="1569819529787" duration="5925000" />
+      <workItem from="1569825593020" duration="2035000" />
+      <workItem from="1569827668685" duration="907000" />
+      <workItem from="1569828702734" duration="564000" />
+      <workItem from="1569829320788" duration="6277000" />
+      <workItem from="1569836483430" duration="701000" />
+      <workItem from="1569837240336" duration="15769000" />
+      <workItem from="1570064432664" duration="29757000" />
+      <workItem from="1570406670204" duration="17751000" />
+      <workItem from="1570666964266" duration="11982000" />
+      <workItem from="1570686201015" duration="167000" />
+      <workItem from="1570686387509" duration="14282000" />
+      <workItem from="1570776386944" duration="421000" />
+      <workItem from="1570784842095" duration="4060000" />
+      <workItem from="1571014839894" duration="18837000" />
+      <workItem from="1571615757390" duration="12457000" />
+      <workItem from="1571646112177" duration="25774000" />
+      <workItem from="1571728202447" duration="5928000" />
+      <workItem from="1571735305585" duration="13140000" />
+      <workItem from="1571808041948" duration="5350000" />
+      <workItem from="1571813768617" duration="7849000" />
+      <workItem from="1571822636728" duration="24213000" />
+      <workItem from="1571902542841" duration="7078000" />
+      <workItem from="1571909784468" duration="35493000" />
+      <workItem from="1572397704821" duration="10389000" />
+      <workItem from="1572416021340" duration="4462000" />
+      <workItem from="1572420668976" duration="1996000" />
+      <workItem from="1572422772993" duration="5820000" />
+      <workItem from="1572429026249" duration="17332000" />
+      <workItem from="1572572365383" duration="25315000" />
+      <workItem from="1572837637598" duration="9136000" />
+      <workItem from="1572852795588" duration="19365000" />
+      <workItem from="1572935429297" duration="2416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/servlet/ServletRequest.class</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MybatisGenerator_maven/src/test/com/hardes/ssm/test/Person_test.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring$ioc_staticFactoryTest.ic" NAME="ioc_staticFactoryTest Coverage Results" MODIFIED="1569837040541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

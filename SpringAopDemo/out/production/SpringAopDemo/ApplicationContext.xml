@@ -1,0 +1,22 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--1 配置对象-->
+    <bean class="com.hardes.SpringAop.Book" id="book"></bean>
+    <bean class="com.hardes.SpringAop.MyBook" id="myBook"></bean>
+
+    <!--2 配置AOP操作-->
+    <aop:config>
+        <!--配置切入点-->
+        <aop:pointcut id="pointcut" expression="execution(* om.hardes.SpringAop.Book.add(..))"/>
+        <!--配置切面
+            把增强用到方法上面0
+        -->
+        <aop:aspect ref="myBook">
+            <!--配置增强类型-->
+            <aop:before method="before" pointcut-ref="pointcut"/>
+        </aop:aspect>
+    </aop:config>
+
+</beans>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SpringmvcSpringMybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/SSM_1" />
+    <file type="web" url="file://$PROJECT_DIR$/SSpringmvcMybatis" />
+    <type id="Spring" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/aop_1/pom.xml" />
+        <option value="$PROJECT_DIR$/aop_1/aop_2/pom.xml" />
+        <option value="$PROJECT_DIR$/aop_2/pom.xml" />
+        <option value="$PROJECT_DIR$/ioc_1/pom.xml" />
+        <option value="$PROJECT_DIR$/staticFactoryInstance/pom.xml" />
+        <option value="$PROJECT_DIR$/ioc_staticFactory/pom.xml" />
+        <option value="$PROJECT_DIR$/ioc_constructorArgInject/pom.xml" />
+        <option value="$PROJECT_DIR$/ioc_setInject/pom.xml" />
+        <option value="$PROJECT_DIR$/ioc_objectInject/pom.xml" />
+        <option value="$PROJECT_DIR$/ioc_pArgInject/pom.xml" />
+        <option value="$PROJECT_DIR$/annotation_createdObject/pom.xml" />
+        <option value="$PROJECT_DIR$/annotation_injectField/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisEntry/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisEntry2/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisEntry3/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringmvcSpringMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/SSpringmvcMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisGenerator_maven/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisGenerator_java/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisEntry4/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisEntry5/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://mybatis.org/dtd/mybatis-3-config.dtd" location="$USER_HOME$/.IntelliJIdea2019.2/system/extResources/69c70a2f_mybatis-3-config.dtd" />
+    <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="$USER_HOME$/.IntelliJIdea2019.2/system/extResources/mybatis-3-mapper.dtd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

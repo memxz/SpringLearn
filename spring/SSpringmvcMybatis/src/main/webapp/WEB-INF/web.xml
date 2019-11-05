@@ -1,0 +1,33 @@
+<web-app
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+        id="WebApp_ID"
+        version="2.5">
+  <display-name>Archetype Created Web Application</display-name>
+    <context-param>
+        <param-name/>
+        <param-value/>
+    </context-param>
+
+    <!-- springmvc 的前端控制器 -->
+  <servlet>
+    <servlet-name>springmvc</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <!-- 指定springmvc的配置文件的地址 -->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:spring/springmvc.xml</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>springmvc</servlet-name>
+    <!-- 这里有三种配置url-pattern方案
+        1、*.do：后缀为.do的请求才能够访问到该servlet[用这个]
+        2、/ ：所有请求都能够访问到该servlet(除jsp)，包括静态请求(处理会有问题，不用)
+        3、/* :有问题，因为访问jsp也会到该servlet，而访问jsp时，我们不需要这样，也不用
+     -->
+    <url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+</web-app>

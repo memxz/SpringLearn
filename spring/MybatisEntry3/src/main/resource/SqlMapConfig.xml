@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="config.properties"/>
+
+    <!-- 和Spring整合后environments配置将不再使用 -->
+    <environments default="development">
+        <environment id="development">
+            <!-- 使用JDBC事务管理，事务控制由MyBatis -->
+            <transactionManager type="JDBC"/>
+            <!-- 数据库连接池，由MyBatis管理 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <!--<property name="url" value="jdbc:mysql://localhost/test?useUnicode=true&amp;characterEncoding=UTF-8"/>-->
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="mapper/User.xml"/>
+        <!--<mapper resource="mapper/UserMapper.xml"/>-->
+        <package name="com.hardes.mapper"/>
+        <!--<mapper resource="mapper/UserMapper.xml"/>-->
+     </mappers>
+
+
+ </configuration>

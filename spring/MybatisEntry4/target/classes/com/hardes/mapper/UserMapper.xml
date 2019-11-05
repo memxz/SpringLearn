@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace命名空间，作用就是对sql进行分类化管理，将sql隔离
+    注意：使用mapper代理方法开发，namespace有特殊重要的作用，namespace为对应的mapper接口地址
+-->
+<mapper namespace="com.hardes.mapper.UserMapper">
+    <!--传递简单类型-->
+    <select id="findUserById" parameterType="int" resultType="com.hardes.pojo.User">
+        SELECT * FROM mybatis3 WHERE id=#{id}
+    </select>
+    <!--传递pojo-->
+    <insert id="insertUser" parameterType="com.hardes.pojo.User">
+    <selectKey keyProperty="id" resultType="int" order="AFTER"> SELECT LAST_INSERT_ID();
+    </selectKey>
+
+    INSERT INTO mybatis3(username,sex, birthday,address) VALUES(#{username},#{sex},#{birthday},#{address});
+    </insert>
+    <!--传递包装pojo(其中放置的为集合，对象引用等)-->
+    <select id="queryUserList" parameterType="com.hardes.pojo.UserQueryVo" resultType="com.hardes.pojo.User">
+    SELECT * FROM mybatis3
+    WHERE sex = #{user.sex} AND username LIKE '%${user.username}%'
+    </select>
+    <!--传递hash map -->
+    <select id="queryUserByMap" parameterType="hashmap" resultType="com.hardes.pojo.User">
+        SELECT * FROM mybatis3
+        WHERE sex=#{sex} AND username LIKE '%${username}%'
+    </select>
+
+    <!--输出映射 result Type和result Map-->
+    <resultMap type="user" id="userRstMap">
+        <id column="id_" property="id"/>
+        <result column="username_" property="username"/>
+        <result column="sex_" property="sex"/>
+
+    </resultMap>
+
+    <select id="findUserByIdFormap" parameterType="int" resultMap="userRstMap">
+        SELECT id id_,username username_ ,sex sex_ FROM mybatis3    WHERE id=#{id}
+    </select>
+
+    <!--if和where-->
+    <select id="queryUserList1" parameterType="com.hardes.pojo.UserQueryVo" resultType="user">
+        SELECT  * FROM mybatis3
+        <where>
+            <if test="user!=null">
+                <if test="user.sex != null and user.sex!='' ">
+                AND sex=#{user.sex}
+            </if>
+            <if test="user.username !=null and user.username!=''">
+                AND username LIKE
+                '%${user.username}%'
+            </if>
+            </if>
+        </where>
+    </select>
+
+    <!--foreach 如果输入的包装pojo类中有集合，就可以放在这里进行遍历-->
+    <select id="queryUserList2" parameterType="com.hardes.pojo.UserQueryVo" resultType="com.hardes.pojo.User">
+        SELECT  * FROM mybatis3
+        <where>
+            <if test ="idList !=null and idList.size>0">
+               <foreach collection="idList" item="id" open="AND id IN (" close=")" separator=",">
+                   #{id}
+               </foreach>
+            </if>
+        </where>
+    </select>
+
+
+    <!--s q l-->
+    <sql id="whereClause">
+        
+
+
+
+
+          <if test= " user.username ! = null and user.username !=''">
+              AND username LIKE
+             '%${user.username}%'
+          </if>
+
+
+    </sql>
+    <select id="queryUserList3" parameterType="com.hardes.pojo.UserQueryVo" resultType="user">
+        SELECT  * FROM mybatis3
+        <where>
+           <include refid="whereClause"></include>
+        </where>
+    </select>
+
+</mapper>
