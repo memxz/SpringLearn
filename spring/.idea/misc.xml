@@ -31,6 +31,8 @@
         <option value="$PROJECT_DIR$/MybatisGenerator_java/pom.xml" />
         <option value="$PROJECT_DIR$/MybatisEntry4/pom.xml" />
         <option value="$PROJECT_DIR$/MybatisEntry5/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisEntry6/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisEntry7_LazyLoad/pom.xml" />
       </list>
     </option>
   </component>

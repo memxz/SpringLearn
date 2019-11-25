@@ -1,6 +1,7 @@
 package com.hardes.pojo;
 
 import java.util.Date;
+import java.util.List;
 
 public class Items {
     private Integer id;
@@ -9,6 +10,9 @@ public class Items {
     private Float price;
     private String pic;
     private Date time;
+
+    //订单项集合
+    //private List<Orders_detail> orders_detailList;
 
     public Integer getId() {
         return id;
@@ -56,5 +60,17 @@ public class Items {
 
     public void setTime(Date time) {
         this.time = time;
+    }
+
+    @Override
+    public String toString() {
+        return "Items{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", detail='" + detail + '\'' +
+                ", price=" + price +
+                ", pic='" + pic + '\'' +
+                ", time=" + time +
+                '}';
     }
 }

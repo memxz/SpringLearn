@@ -10,6 +10,7 @@ public class Orders {
     private String number;
     private Date time;
     private String note;
+    private Users users;
     
     //订单明细集合
     private List<Orders_detail> detailList;
@@ -60,5 +61,26 @@ public class Orders {
 
     public void setDetailList(List<Orders_detail> detailList) {
         this.detailList = detailList;
+    }
+
+    public Users getUsers() {
+        return users;
+    }
+
+    public void setUsers(Users users) {
+        this.users = users;
+    }
+
+    @Override
+    public String toString() {
+        return "Orders{" +
+                "id=" + id +
+                ", userId=" + userId +
+                ", number='" + number + '\'' +
+                ", time=" + time +
+                ", note='" + note + '\'' +
+                ", users=" + users +
+                ", detailList=" + detailList +
+                '}';
     }
 }

@@ -9,7 +9,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33c6754f-cf51-42c9-8c2e-a43463103576" name="Default Changelist" comment="" />
+    <list default="true" id="33c6754f-cf51-42c9-8c2e-a43463103576" name="Default Changelist" comment="2nd commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MybatisEntry6/MybatisEntry6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MybatisEntry6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/OrdersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/OrdersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/UsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/UsersMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/OrdersExt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/resource/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/resource/jdbc.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +66,18 @@
         <option value="SqlMapConfig templete" />
         <option value="log4j property templete" />
         <option value="JDBC property templete" />
-        <option value="Mapper Templete" />
         <option value="UserMapper Sample" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Mapper Templete" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0d9b6736-5757-4b1e-90f2-9a75481df848" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -80,22 +103,25 @@
     </option>
   </component>
   <component name="ProjectId" id="1RXhp9taLTNmER395mfEOJkaQ2w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowSequence.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MybatisGenerator_maven/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.239188" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -108,11 +134,11 @@
       <recent name="com.hardes.po" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisEntry7_LazyLoad\src\main" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisEntry7_LazyLoad\src\main\java\com\hardes" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisEntry6\src" />
       <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src\main\resources" />
       <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_java\src\main\resource" />
-      <recent name="D:\CM_Library\java\maven\workspace\spring\SSM_1\src\main\webapp\WEB-INF" />
-      <recent name="D:\CM_Library\java\maven\workspace\spring\SSM_1\src\main" />
-      <recent name="D:\CM_Library\java\maven\workspace\spring\SpringmvcSpringMybatis\src\main\java\com\hardes\dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hardes" />
@@ -131,6 +157,10 @@
         <path>
           <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
+        <path>
+          <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="SSpringmvcMybatis" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -147,20 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.User_Test">
-    <configuration name="MybatisGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hardes.mbg.MybatisGenerator" />
-      <module name="MybatisGenerator_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hardes.mbg.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestUsers1.userTest1">
     <configuration name="AopTest_1" type="JUnit" factoryName="JUnit">
       <module name="aop_1" />
       <option name="PACKAGE_NAME" value="com.hardes" />
@@ -194,63 +211,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person_test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisGenerator_java" />
+    <configuration name="TestUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisEntry5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hardes.ssm.*" />
+          <option name="PATTERN" value="com.hardes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hardes.ssm" />
-      <option name="MAIN_CLASS_NAME" value="com.hardes.ssm.Person_test" />
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.TestUsers" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisGenerator_maven" />
+    <configuration name="TestUsers1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisEntry7_LazyLoad" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hardes.ssm.test.*" />
+          <option name="PATTERN" value="com.hardes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hardes.ssm.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hardes.ssm.test.Person_test" />
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.TestUsers1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person_test.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisGenerator_maven" />
+    <configuration name="TestUsers1.userTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisEntry7_LazyLoad" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hardes.ssm.test.*" />
+          <option name="PATTERN" value="com.hardes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hardes.ssm.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hardes.ssm.test.Person_test" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.TestUsers1" />
+      <option name="METHOD_NAME" value="userTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisEntry4" />
+    <configuration name="TestUsers.userTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisEntry6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hardes.pojo.*" />
+          <option name="PATTERN" value="com.hardes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hardes" />
-      <option name="MAIN_CLASS_NAME" value="com.hardes.User_Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.TestUsers" />
+      <option name="METHOD_NAME" value="userTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUsers.userTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisEntry5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hardes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.TestUsers" />
+      <option name="METHOD_NAME" value="userTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -482,7 +516,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MybatisGenerator" />
       <item itemvalue="JUnit.AopTest_2" />
       <item itemvalue="JUnit.IocTest_1" />
       <item itemvalue="JUnit.ioc_constructorArgInjectTest" />
@@ -491,23 +524,27 @@
       <item itemvalue="JUnit.ioc_pComplexInject" />
       <item itemvalue="JUnit.annotation_injectFieldtTest" />
       <item itemvalue="JUnit.AopTest_1" />
-      <item itemvalue="JUnit.Person_test.test01" />
-      <item itemvalue="JUnit.Person_test" />
-      <item itemvalue="JUnit.Person_test (1)" />
-      <item itemvalue="JUnit.User_Test" />
+      <item itemvalue="JUnit.TestUsers.userTest" />
+      <item itemvalue="JUnit.TestUsers" />
+      <item itemvalue="JUnit.TestUsers.userTest (1)" />
       <item itemvalue="Maven.MybatisGenerator" />
       <item itemvalue="Tomcat Server.SSM_test" />
       <item itemvalue="Tomcat Server.SSMybatisTest" />
+      <item itemvalue="JUnit.TestUsers1.userTest1" />
+      <item itemvalue="JUnit.TestUsers1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.User_Test" />
-        <item itemvalue="JUnit.Person_test (1)" />
-        <item itemvalue="JUnit.Person_test" />
-        <item itemvalue="Application.MybatisGenerator" />
-        <item itemvalue="JUnit.Person_test.test01" />
+        <item itemvalue="JUnit.TestUsers1.userTest1" />
+        <item itemvalue="JUnit.TestUsers1" />
+        <item itemvalue="JUnit.TestUsers.userTest (1)" />
+        <item itemvalue="JUnit.TestUsers.userTest" />
+        <item itemvalue="JUnit.TestUsers" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,ALPHA_COMPARATOR,SHOW_LAMBDA,SHOW_ANONYMOUS,SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -551,21 +588,56 @@
       <workItem from="1572572365383" duration="25315000" />
       <workItem from="1572837637598" duration="9136000" />
       <workItem from="1572852795588" duration="19365000" />
-      <workItem from="1572935429297" duration="2416000" />
+      <workItem from="1572935429297" duration="16525000" />
+      <workItem from="1573020300268" duration="11644000" />
+      <workItem from="1573032621790" duration="1929000" />
+      <workItem from="1573095409839" duration="38812000" />
+      <workItem from="1573619133970" duration="17566000" />
+      <workItem from="1573775503170" duration="18094000" />
+      <workItem from="1574150321970" duration="650000" />
+      <workItem from="1574151045268" duration="30307000" />
     </task>
+    <task id="LOCAL-00001" summary="2nd commit">
+      <created>1574669168622</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574669168676</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/servlet/ServletRequest.class</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/MybatisGenerator_maven/src/test/com/hardes/ssm/test/Person_test.java</url>
           <line>9</line>
           <option name="timeStamp" value="2" />

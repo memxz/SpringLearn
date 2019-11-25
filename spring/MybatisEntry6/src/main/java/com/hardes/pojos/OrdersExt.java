@@ -1,12 +1,15 @@
-package com.hardes.pojo;
+package com.hardes.pojos;
+
 
 import java.util.Date;
 
-public class OrdersExt {
+public class OrdersExt extends Orders {
     private String username;
     private Date birthday;
     private char sex;
     private String address;
+
+
 
     public String getUsername() {
         return username;
@@ -38,5 +41,19 @@ public class OrdersExt {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "OrdersExt{" +
+                "username='" + username + '\'' +
+                ", birthday=" + birthday +
+                ", sex=" + sex +
+                ", address='" + address + '\'' +
+                ", "+super.toString()+
+
+                '}';
     }
 }

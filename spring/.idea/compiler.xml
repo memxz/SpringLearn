@@ -7,24 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MybatisEntry3" />
-        <module name="MybatisEntry2" />
-        <module name="MybatisEntry4" />
+        <module name="MybatisGenerator_maven" />
+        <module name="SSpringmvcMybatis" />
+        <module name="annotation_createdObject" />
+        <module name="SpringmvcSpringMybatis" />
         <module name="ioc_staticFactory" />
+        <module name="MybatisEntry7_LazyLoad" />
         <module name="ioc_pArgInject" />
         <module name="ioc_constructorArgInject" />
         <module name="aop_1" />
-        <module name="SpringmvcSpringMybatis" />
+        <module name="MybatisEntry2" />
         <module name="ioc_setInject" />
         <module name="MybatisEntry" />
         <module name="aop_2" />
-        <module name="ioc_objectInject" />
-        <module name="MybatisGenerator_maven" />
         <module name="annotation_injectField" />
         <module name="MybatisGenerator_java" />
-        <module name="annotation_createdObject" />
+        <module name="ioc_objectInject" />
         <module name="ioc_1" />
+        <module name="MybatisEntry6" />
         <module name="MybatisEntry5" />
-        <module name="SSpringmvcMybatis" />
+        <module name="MybatisEntry4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

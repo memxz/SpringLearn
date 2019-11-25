@@ -9,8 +9,9 @@ public class Users {
     private String sex;
     private Date birthday;
     private String address;
+
     //订单信息集合
-    private List<Orders> orders;
+    private List<Orders> ordersList;
 
 
 
@@ -54,12 +55,13 @@ public class Users {
         this.address = address;
     }
 
-    public List<Orders> getOrders() {
-        return orders;
+
+    public List<Orders> getOrdersList() {
+        return ordersList;
     }
 
-    public void setOrders(List<Orders> orders) {
-        this.orders = orders;
+    public void setOrdersList(List<Orders> ordersList) {
+        this.ordersList = ordersList;
     }
 
     @Override
@@ -70,6 +72,7 @@ public class Users {
                 ", sex='" + sex + '\'' +
                 ", birthday=" + birthday +
                 ", address='" + address + '\'' +
+                ", ordersList=" + ordersList +
                 '}';
     }
 }
