@@ -9,23 +9,61 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33c6754f-cf51-42c9-8c2e-a43463103576" name="Default Changelist" comment="2nd commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MybatisEntry6/MybatisEntry6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MybatisEntry6/pom.xml" afterDir="false" />
+    <list default="true" id="33c6754f-cf51-42c9-8c2e-a43463103576" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/OrdersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/OrdersMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/UsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/UsersMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/mapper/UsersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/OrdersExt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/java/com/hardes/pojo/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/resource/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/resource/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry/firestorm.log" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry/firestorm.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry2/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry2/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry3/target/classes/com/hardes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry3/target/classes/com/hardes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry4/src/main/resource/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry4/src/main/resource/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry4/target/classes/com/hardes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry4/target/classes/com/hardes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry4/target/classes/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry4/target/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/resource/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/src/main/resource/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/src/main/resource/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry5/target/classes/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry5/target/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry6/src/main/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry6/src/main/resource/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry6/src/main/resource/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry6/src/main/resource/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry6/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry6/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry6/target/classes/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry6/target/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/java/com/hardes/mappers/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/java/com/hardes/mappers/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/java/com/hardes/mappers/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/java/com/hardes/mappers/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/java/com/hardes/pojos/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/java/com/hardes/pojos/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/java/com/hardes/pojos/OrdersExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/java/com/hardes/pojos/OrdersExt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/resource/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/resource/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/main/resource/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/test/java/com/hardes/TestUsers1.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/src/test/java/com/hardes/TestUsers1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/com/hardes/mappers/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/com/hardes/mappers/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/com/hardes/mappers/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/com/hardes/mappers/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/com/hardes/pojos/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/com/hardes/pojos/Orders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/com/hardes/pojos/OrdersExt.class" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/com/hardes/pojos/OrdersExt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/mybatis/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/MybatisEntry7_LazyLoad.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/com/hardes/TestUsers1.class" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/com/hardes/TestUsers1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/com/hardes/pojos/Items.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/com/hardes/pojos/Orders_detail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/com/hardes/pojos/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/src/main/java/com/hardes/mappers/OrdersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/src/main/java/com/hardes/mappers/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/src/main/resource/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/src/main/resource/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/src/main/resource/mybatis/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/src/main/resource/spring/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/target/classes/com/hardes/mappers/OrdersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/target/classes/com/hardes/mappers/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/target/classes/mybatis/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/target/classes/spring/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/target/test-classes/MybatisEntry7_LazyLoad.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/target/test-classes/src/main/resource/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisEntry7_LazyLoad/target/test-classes/target/test-classes/src/main/resource/log4j.properties" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +96,6 @@
         <option value="applicationContext" />
         <option value="Tag Library Descriptor" />
         <option value="spring-beans.schema" />
-        <option value="XML Properties File" />
         <option value="Arquillian JUnit Test Class" />
         <option value="Mapper" />
         <option value="applicationContext templete" />
@@ -70,14 +107,12 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="Mapper Templete" />
+        <option value="XML Properties File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="0d9b6736-5757-4b1e-90f2-9a75481df848" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -130,8 +165,18 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_java\src\main\resource" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_java\src\main\java\config" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src\main" />
+      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src\main\resource" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.hardes.po" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hardes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisEntry7_LazyLoad\src\main" />
@@ -139,16 +184,6 @@
       <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisEntry6\src" />
       <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src\main\resources" />
       <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_java\src\main\resource" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hardes" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_java\src\main\resource" />
-      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_java\src\main\java\config" />
-      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src" />
-      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src\main" />
-      <recent name="D:\CM_Library\java\maven\workspace\spring\MybatisGenerator_maven\src\main\resource" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -177,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestUsers1.userTest1">
+  <component name="RunManager" selected="JUnit.TestUsers1 (1)">
     <configuration name="AopTest_1" type="JUnit" factoryName="JUnit">
       <module name="aop_1" />
       <option name="PACKAGE_NAME" value="com.hardes" />
@@ -211,8 +246,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisEntry5" />
+    <configuration name="TestUsers (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisEntry6" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hardes.*" />
@@ -221,6 +256,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hardes" />
       <option name="MAIN_CLASS_NAME" value="com.hardes.TestUsers" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUsers1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisEntry7_LazyLoad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hardes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hardes" />
+      <option name="MAIN_CLASS_NAME" value="com.hardes.TestUsers1" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,7 +286,10 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hardes" />
       <option name="MAIN_CLASS_NAME" value="com.hardes.TestUsers1" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea,encoding=UTF-8" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -257,24 +310,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUsers.userTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisEntry6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hardes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hardes" />
-      <option name="MAIN_CLASS_NAME" value="com.hardes.TestUsers" />
-      <option name="METHOD_NAME" value="userTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestUsers.userTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisEntry5" />
+      <module name="MybatisEntry6" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hardes.*" />
@@ -524,22 +561,22 @@
       <item itemvalue="JUnit.ioc_pComplexInject" />
       <item itemvalue="JUnit.annotation_injectFieldtTest" />
       <item itemvalue="JUnit.AopTest_1" />
+      <item itemvalue="JUnit.TestUsers (1)" />
       <item itemvalue="JUnit.TestUsers.userTest" />
-      <item itemvalue="JUnit.TestUsers" />
-      <item itemvalue="JUnit.TestUsers.userTest (1)" />
+      <item itemvalue="JUnit.TestUsers1" />
+      <item itemvalue="JUnit.TestUsers1.userTest1" />
+      <item itemvalue="JUnit.TestUsers1 (1)" />
       <item itemvalue="Maven.MybatisGenerator" />
       <item itemvalue="Tomcat Server.SSM_test" />
       <item itemvalue="Tomcat Server.SSMybatisTest" />
-      <item itemvalue="JUnit.TestUsers1.userTest1" />
-      <item itemvalue="JUnit.TestUsers1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestUsers1.userTest1" />
+        <item itemvalue="JUnit.TestUsers1 (1)" />
         <item itemvalue="JUnit.TestUsers1" />
-        <item itemvalue="JUnit.TestUsers.userTest (1)" />
+        <item itemvalue="JUnit.TestUsers1.userTest1" />
+        <item itemvalue="JUnit.TestUsers (1)" />
         <item itemvalue="JUnit.TestUsers.userTest" />
-        <item itemvalue="JUnit.TestUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -595,7 +632,11 @@
       <workItem from="1573619133970" duration="17566000" />
       <workItem from="1573775503170" duration="18094000" />
       <workItem from="1574150321970" duration="650000" />
-      <workItem from="1574151045268" duration="30307000" />
+      <workItem from="1574151045268" duration="30454000" />
+      <workItem from="1574669977035" duration="4798000" />
+      <workItem from="1574730747634" duration="8744000" />
+      <workItem from="1574813339400" duration="2579000" />
+      <workItem from="1574817645182" duration="2615000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1574669168622</created>
@@ -604,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574669168676</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2nd commit">
+      <created>1574669425745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574669425745</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,9 +672,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
     <MESSAGE value="2nd commit" />
     <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
   </component>

@@ -275,3 +275,72 @@ DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC 
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3bf7ca37]
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3bf7ca37]
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1006094903 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 244872973.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main com.queryById - ==>  Preparing: SELECT * FROM PERSON WHERE ID=? 
+DEBUG main com.queryById - ==> Parameters: 1(Integer)
+DEBUG main com.queryById - <==      Total: 0
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 244872973 to pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 244872973 from pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main com.insertPerson - ==>  Preparing: INSERT INTO PERSON(ID,USERNAME,AGE,MOBILEPHONE)VALUES (?,?,?,?) 
+DEBUG main com.insertPerson - ==> Parameters: 112(Integer), jack wang(String), 28(Integer), 3348(String)
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 244872973 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 244872973.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main com.queryById - ==>  Preparing: SELECT * FROM PERSON WHERE ID=? 
+DEBUG main com.queryById - ==> Parameters: 1(Integer)
+DEBUG main com.queryById - <==      Total: 0
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 244872973 to pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 244872973 from pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main com.insertPerson - ==>  Preparing: INSERT INTO PERSON(ID,USERNAME,AGE,MOBILEPHONE)VALUES (?,?,?,?) 
+DEBUG main com.insertPerson - ==> Parameters: 112(Integer), jack wang(String), 28(Integer), 3348(String)
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@e98770d]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 244872973 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1006094903.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3bf7ca37]
+DEBUG main com.queryById - ==>  Preparing: SELECT * FROM PERSON WHERE ID=? 
+DEBUG main com.queryById - ==> Parameters: 1(Integer)
+DEBUG main com.queryById - <==      Total: 0
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3bf7ca37]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3bf7ca37]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1006094903 to pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1006094903 from pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3bf7ca37]
+DEBUG main com.insertPerson - ==>  Preparing: INSERT INTO PERSON(ID,USERNAME,AGE,MOBILEPHONE)VALUES (?,?,?,?) 
+DEBUG main com.insertPerson - ==> Parameters: 112(Integer), jack wang(String), 28(Integer), 3348(String)
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3bf7ca37]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3bf7ca37]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3bf7ca37]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1006094903 to pool.

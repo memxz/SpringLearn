@@ -71,8 +71,14 @@
 
     <!--s q l-->
     <sql id="whereClause">
-        
+       <!--
+        <if test="user.sex != null and user.sex !=''"> AND sex=#{user.sex}</if>
 
+        <if test= " user.username ! = null and user.username !=''">
+            AND username LIKE
+            '%${user.username}%'
+        </if>
+        -->
 
 
 
@@ -81,7 +87,7 @@
              '%${user.username}%'
           </if>
 
-
+     <!--</if>-->
     </sql>
     <select id="queryUserList3" parameterType="com.hardes.pojo.UserQueryVo" resultType="user">
         SELECT  * FROM mybatis3

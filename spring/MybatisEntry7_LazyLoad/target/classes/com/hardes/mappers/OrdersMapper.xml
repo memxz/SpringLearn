@@ -6,7 +6,8 @@
     注意：使用mapper代理方法开发，namespace有特殊重要的作用，namespace为对应的mapper接口地址
 -->
 <mapper namespace="com.hardes.mappers.OrdersMapper">
-
+    <!--开启二级缓存你，默认使用PerpetualCache-->
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
 
     <!--一对一映射,还用resultType-->
     <select id="findOrdersAndUsersByOid" parameterType="int" resultType="com.hardes.pojos.OrdersExt">
@@ -14,6 +15,9 @@
 
         FROM users,orders WHERE  orders.id=#{oid} AND orders.user_id= users.id
     </select>
+
+    <!--开启二级缓存，默认使用PerpetualCache-->
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
 
    <resultMap id="OrdersAndUserLazyloading" type="com.hardes.pojos.Orders">
        <id column="orders_id"  property="oid"/>
@@ -25,7 +29,7 @@
                     select="com.hardes.mappers.UsersMapper.findUserById"/>
    </resultMap>
 
-    <select id="findOrdersAndUserLazyloading" resultMap="OrdersAndUserLazyloading">
+    <select id="findOrdersAndUserLazyloading" resultMap="OrdersAndUserLazyloading" useCache="true" flushCache="true">
         SELECT
         orders.id orders_id,
         orders.number,

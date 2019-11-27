@@ -1,9 +1,10 @@
 package com.hardes.pojos;
 
+import java.io.Serializable;
 import java.util.Date;
 
 
-public class Orders {
+public class Orders implements Serializable {
     private Integer oid;
     private Integer user_id;
     private String number;

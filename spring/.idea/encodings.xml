@@ -22,5 +22,6 @@
     <file url="file://$PROJECT_DIR$/ioc_pArgInject" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ioc_setInject" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ioc_staticFactory" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

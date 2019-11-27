@@ -4,6 +4,11 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+    <settings>
+
+        <setting name="logImpl" value="LOG4J"/>
+
+    </settings>
     <!-- 取别名，或者别的其他全局配置信息，就在这里编写 -->
     <typeAliases>
         <!-- 别名为类名首字母大小写都可以 -->

@@ -22,6 +22,10 @@ public class TestUsers1 {
 
         System.out.println(list);
 
+
+        /**
+         * 使用resultType作映射,lazy loading
+         */
         List<Orders> list1 = ordersmapper.findOrdersAndUserLazyloading();
 
         System.out.println(list1);

@@ -1,9 +1,10 @@
 package com.hardes.pojos;
 
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class OrdersExt extends Orders {
+public class OrdersExt extends Orders implements Serializable {
     private String username;
     private Date birthday;
     private char sex;

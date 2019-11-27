@@ -7,7 +7,7 @@
 -->
 <mapper namespace="com.hardes.mapper.UserMapper">
     <!-- 根据用户ID查询对应的用户记录 -->
-    <select id="findUserById" parameterType="int" resultType="com.hardes.po.User">
+    <select id="findUserById" parameterType="int" resultType="com.hardes.pojo.User">
         SELECT * FROM mybatis3 WHERE id=#{id}
     </select>
 

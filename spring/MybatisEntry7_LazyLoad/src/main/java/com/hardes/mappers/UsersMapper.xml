@@ -6,7 +6,8 @@
     注意：使用mapper代理方法开发，namespace有特殊重要的作用，namespace为对应的mapper接口地址
 -->
 <mapper namespace="com.hardes.mappers.UsersMapper">
-
+    <!--开启二级缓存你，默认使用PerpetualCache-->
+     <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
     <resultMap id="findOrdersAndUsersReM" type="com.hardes.pojos.Users">
         <id column="uid" property="id"/>
         <result column="username" property="username"/>
@@ -34,7 +35,7 @@
          FROM users,orders WHERE  users.id=#{id} AND users.id=orders.user_id
     </select>
 
-
+<!--lazy loading-->
     <select id="findUserById"   parameterType="int" resultType="com.hardes.pojos.Users"  useCache="true" flushCache="true">
         SELECT *
         FROM    users

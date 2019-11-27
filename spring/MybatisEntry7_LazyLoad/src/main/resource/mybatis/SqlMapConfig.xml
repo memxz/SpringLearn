@@ -5,6 +5,8 @@
 <configuration>
 
     <settings>
+        <!-- 用于输出日志 log4j:LOG4J SLF4J -->
+        <setting name="logImpl" value="SLF4J"/>
         <!--打开延迟加载的开关，默认为true-->
         <setting name="lazyLoadingEnabled" value="true"/>
         <!--积极的懒加载，默认是true，设置为false时，懒加载生效-->
