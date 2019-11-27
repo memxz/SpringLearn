@@ -18,9 +18,15 @@ public class TestUsers1 {
          */
         OrdersMapper ordersmapper= (OrdersMapper) ac.getBean("ordersMapper");
 
-        List<OrdersExt> list = ordersmapper.findOrdersAndUsersByOid(2);
+        List<OrdersExt> list = ordersmapper.findOrdersAndUsersByOid1(2);
 
         System.out.println(list);
+
+        //只查询了一次sql，所以第二次访问是从ehcache缓存中拿的
+
+        List<OrdersExt> list3 = ordersmapper.findOrdersAndUsersByOid1(2);
+
+        System.out.println(list3);
 
 
         /**
@@ -29,6 +35,10 @@ public class TestUsers1 {
         List<Orders> list1 = ordersmapper.findOrdersAndUserLazyloading();
 
         System.out.println(list1);
+         //只查询了一次sql，所以第二次访问是从ehcache缓存中拿的
+        List<Orders> list2 = ordersmapper.findOrdersAndUserLazyloading();
+
+        System.out.println(list2);
 
     }
 

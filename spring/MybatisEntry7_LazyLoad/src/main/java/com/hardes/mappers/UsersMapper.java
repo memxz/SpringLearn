@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface UsersMapper {
 
-    List<Users> findOrdersAndUsersByOid1(int id);
+    List<Users> findOrdersAndUsersByOid2(int id);
     List<Users>   findUserById(int i);
 }

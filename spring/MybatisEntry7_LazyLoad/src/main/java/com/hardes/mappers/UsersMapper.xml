@@ -8,6 +8,7 @@
 <mapper namespace="com.hardes.mappers.UsersMapper">
     <!--开启二级缓存你，默认使用PerpetualCache-->
      <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
+
     <resultMap id="findOrdersAndUsersReM" type="com.hardes.pojos.Users">
         <id column="uid" property="id"/>
         <result column="username" property="username"/>
@@ -22,7 +23,7 @@
         </association>
     </resultMap>
 
-    <select id="findOrdersAndUsersByOid1" parameterType="int" resultMap="findOrdersAndUsersReM">
+    <select id="findOrdersAndUsersByOid2" parameterType="int" resultMap="findOrdersAndUsersReM">
         SELECT
             users.id uid,
             users.username,
@@ -36,7 +37,7 @@
     </select>
 
 <!--lazy loading-->
-    <select id="findUserById"   parameterType="int" resultType="com.hardes.pojos.Users"  useCache="true" flushCache="true">
+    <select id="findUserById"   parameterType="int" resultType="com.hardes.pojos.Users"  useCache="true" flushCache="false">
         SELECT *
         FROM    users
         WHERE id=#{id}

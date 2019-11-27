@@ -10,14 +10,13 @@
     <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
 
     <!--一对一映射,还用resultType-->
-    <select id="findOrdersAndUsersByOid" parameterType="int" resultType="com.hardes.pojos.OrdersExt">
+    <select id="findOrdersAndUsersByOid1" parameterType="int" resultType="com.hardes.pojos.OrdersExt">
         SELECT *
 
         FROM users,orders WHERE  orders.id=#{oid} AND orders.user_id= users.id
     </select>
 
-    <!--开启二级缓存，默认使用PerpetualCache-->
-    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
+
 
    <resultMap id="OrdersAndUserLazyloading" type="com.hardes.pojos.Orders">
        <id column="orders_id"  property="oid"/>
@@ -29,7 +28,7 @@
                     select="com.hardes.mappers.UsersMapper.findUserById"/>
    </resultMap>
 
-    <select id="findOrdersAndUserLazyloading" resultMap="OrdersAndUserLazyloading" useCache="true" flushCache="true">
+    <select id="findOrdersAndUserLazyloading" resultMap="OrdersAndUserLazyloading" useCache="true" flushCache="false">
         SELECT
         orders.id orders_id,
         orders.number,

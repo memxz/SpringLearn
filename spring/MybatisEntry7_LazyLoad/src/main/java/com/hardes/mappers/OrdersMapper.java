@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface OrdersMapper {
 
-    List<OrdersExt> findOrdersAndUsersByOid(int i);
+    List<OrdersExt> findOrdersAndUsersByOid1(int i);
     List<Orders> findOrdersAndUserLazyloading();
 
 }
