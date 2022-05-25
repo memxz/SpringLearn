@@ -19,7 +19,7 @@
     <!--he property may be accessed in the configuration file with the syntax ${dao.target.dir}-->
       <!--dao.target.dir>src/main/java</dao.target.dir-->
     <!-- spring版本号 -->
-    <spring.version>5.1.9.RELEASE</spring.version>
+    <spring.version>5.2.22.RELEASE</spring.version>
     <!-- mybatis版本号 -->
     <mybatis.version>3.4.6</mybatis.version>
   </properties>
